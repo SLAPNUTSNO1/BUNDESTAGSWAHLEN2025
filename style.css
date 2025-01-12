@@ -1,0 +1,71 @@
+/* Grundlegendes Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #1c1c1c;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* AFD Farben und Design */
+header {
+    background-color: #006e6d; /* AFD grün */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    background-color: #006e6d; /* AFD grün */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Countdown-Stil */
+#countdown {
+    font-size: 2.5em;
+    color: #d9534f; /* Rote Akzentfarbe */
+}
